@@ -35,8 +35,6 @@ try:
         ooo = f.read().splitlines()
 except IndexError:
     print (ktnred + '[+]================> ' + 'USAGE: '+sys.argv[0]+' listip.txt' + CEND)
-    pass
-ooo = list((ooo))
 ##########################################################################################
 se = requests.session()
 Agent = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:28.0) Gecko/20100101 Firefox/28.0'}
